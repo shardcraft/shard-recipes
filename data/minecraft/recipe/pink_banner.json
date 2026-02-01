@@ -7,12 +7,8 @@
     " | "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:pink_carpet"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:pink_carpet",
+    "|": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:pink_banner"

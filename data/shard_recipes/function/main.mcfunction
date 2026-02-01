@@ -5,6 +5,3 @@ execute if score global clocks matches 0 run execute as @a[tag=!vanillaRecipesUn
 scoreboard players add @a shardRecipeVersion 0
 execute as @a[scores={shardRecipeVersion=..0}] run function shard_recipes:unlock_custom_recipes_1
 # execute as @a[scores={shardRecipeVersion=..1}] run function shard_recipes:unlock_custom_recipes_2
-
-# Debug
-execute if score global clocks matches 0 run tell @a[team=debug] shard_recipes

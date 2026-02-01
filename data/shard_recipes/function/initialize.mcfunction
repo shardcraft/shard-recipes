@@ -1,2 +1,2 @@
-gamerule doLimitedCrafting true
+gamerule limited_crafting true
 scoreboard objectives add shardRecipeVersion dummy

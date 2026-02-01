@@ -7,12 +7,8 @@
     " | "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:magenta_carpet"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:magenta_carpet",
+    "|": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:magenta_banner"

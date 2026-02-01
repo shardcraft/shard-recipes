@@ -7,12 +7,8 @@
     " | "
   ],
   "key": {
-    "#": {
-      "item": "minecraft:green_carpet"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "#": "minecraft:green_carpet",
+    "|": "minecraft:stick"
   },
   "result": {
     "id": "minecraft:green_banner"

@@ -7,12 +7,8 @@
     "WWW"
   ],
   "key": {
-    "W": {
-      "item": "minecraft:white_wool"
-    },
-    "D": {
-      "item": "minecraft:red_dye"
-    }
+    "W": "minecraft:white_wool",
+    "D": "minecraft:red_dye"
   },
   "result": {
     "id": "minecraft:red_wool",

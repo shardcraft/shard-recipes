@@ -6,12 +6,8 @@
     "DDD"
   ],
   "key": {
-    "D": {
-      "item": "minecraft:dirt"
-    },
-    "G": {
-      "item": "minecraft:gravel"
-    }
+    "D": "minecraft:dirt",
+    "G": "minecraft:gravel"
   },
   "result": {
     "id": "minecraft:coarse_dirt",
