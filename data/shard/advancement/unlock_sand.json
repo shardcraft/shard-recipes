@@ -1,0 +1,16 @@
+{
+  "parent": "shard_core:root",
+  "criteria": {
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:sandstone"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["shard:sand"]
+  }
+}

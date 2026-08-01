@@ -1,0 +1,16 @@
+{
+  "parent": "shard_core:root",
+  "criteria": {
+    "has_bamboo_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:bamboo_block"] }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["shard:bamboo"]
+  }
+}
