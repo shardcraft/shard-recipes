@@ -1,0 +1,35 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "minecraft:compass",
+    "predicates": {
+      "minecraft:custom_data": {
+        "shard_true_north_compass": true
+      }
+    }
+  },
+  "on_pass": {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:lodestone_tracker": {
+        "target": {
+          "dimension": "minecraft:the_nether",
+          "pos": [
+            0,
+            0,
+            -33554432
+          ]
+        },
+        "tracked": false
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+        {
+          "text": "Attuned to Nether",
+          "italic": false,
+          "color": "blue"
+        }
+      ]
+    }
+  }
+}

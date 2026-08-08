@@ -1,0 +1,45 @@
+{
+  "parent": "shard_core:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            6120045
+          ]
+        }
+      }
+    },
+    "title": "True North",
+    "description": "Have a True North Compass in your inventory",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_true_north_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ],
+            "predicates": {
+              "minecraft:custom_data": {
+                "shard_true_north_compass": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  6120045
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "shard_core:root",
+  "criteria": {
+    "has_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      }
+    },
+    "has_amethyst_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:amethyst_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_compass",
+      "has_amethyst_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "shard:true_north_compass"
+    ]
+  }
+}

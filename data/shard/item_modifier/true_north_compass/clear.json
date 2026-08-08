@@ -1,0 +1,17 @@
+{
+  "function": "minecraft:filtered",
+  "item_filter": {
+    "items": "minecraft:compass",
+    "predicates": {
+      "minecraft:custom_data": {
+        "shard_true_north_compass": true
+      }
+    }
+  },
+  "on_pass": {
+    "function": "minecraft:set_components",
+    "components": {
+      "!minecraft:lodestone_tracker": {}
+    }
+  }
+}
